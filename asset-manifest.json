@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/silhth.github.io/quiz_html_css_js/static/css/main.3ed71622.css",
-    "main.js": "/silhth.github.io/quiz_html_css_js/static/js/main.11a25254.js",
-    "static/js/787.83904489.chunk.js": "/silhth.github.io/quiz_html_css_js/static/js/787.83904489.chunk.js",
-    "static/media/QUIZ.png": "/silhth.github.io/quiz_html_css_js/static/media/QUIZ.6888aeaf00988c733227.png",
-    "index.html": "/silhth.github.io/quiz_html_css_js/index.html",
-    "main.3ed71622.css.map": "/silhth.github.io/quiz_html_css_js/static/css/main.3ed71622.css.map",
-    "main.11a25254.js.map": "/silhth.github.io/quiz_html_css_js/static/js/main.11a25254.js.map",
-    "787.83904489.chunk.js.map": "/silhth.github.io/quiz_html_css_js/static/js/787.83904489.chunk.js.map"
+    "main.css": "/quiz_html_css_js/static/css/main.3ed71622.css",
+    "main.js": "/quiz_html_css_js/static/js/main.05af642a.js",
+    "static/js/787.83904489.chunk.js": "/quiz_html_css_js/static/js/787.83904489.chunk.js",
+    "static/media/QUIZ.png": "/quiz_html_css_js/static/media/QUIZ.6888aeaf00988c733227.png",
+    "index.html": "/quiz_html_css_js/index.html",
+    "main.3ed71622.css.map": "/quiz_html_css_js/static/css/main.3ed71622.css.map",
+    "main.05af642a.js.map": "/quiz_html_css_js/static/js/main.05af642a.js.map",
+    "787.83904489.chunk.js.map": "/quiz_html_css_js/static/js/787.83904489.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ed71622.css",
-    "static/js/main.11a25254.js"
+    "static/js/main.05af642a.js"
   ]
 }
