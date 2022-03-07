@@ -1,0 +1,41 @@
+@import "../../libs/variables.scss";
+.home{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left:25%;
+    height: 100vh;
+    width: 50%;
+    text-align: center;
+    color: white;
+    img{
+        width: 100%;
+        height:auto;
+    }
+    h2{
+        width: 100%;
+        font-size: 30px;
+        color: white;
+        margin: 0;
+
+    }
+    p{
+        font-size: 20px;
+        margin-bottom: 40px
+    }
+    a{
+        @include Button;
+        padding: 10px 50px;
+        text-decoration: none;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .home{
+        width: auto;
+        position: static;
+        margin: 0 20px;
+    }
+}

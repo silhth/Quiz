@@ -1,0 +1,49 @@
+
+@import  "../../libs/variables.scss";
+.timer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 15px;
+    top: 60px;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    color: $listBackground;
+    border: 7px solid $listBackground;
+    z-index: 2;
+    .timeNum{
+        font-size: 40px;
+    }
+    
+}
+.animation {
+    animation: color 5s infinite;
+}
+
+
+@keyframes color{
+    0% { background: white;
+        color: $listBackground;}
+    50% { background: rgb(255, 224, 47);
+        color: $listBackground;}
+    100% {background: rgb(151, 0, 13);
+        color: white;}
+}
+
+@media screen and (max-width: 767px) {
+
+    .timer {
+        right: 15px;
+        top: 170px;
+        width: 30px;
+        height: 30px;
+        .timeNum{
+            font-size: 30px;
+        }
+        
+    }
+}

@@ -1,0 +1,74 @@
+$main: rgb(153, 0, 255);
+$textColor: white;
+$listBackground: rgb(0, 82, 82);
+$mainButton: rgb(128, 0, 110);
+
+
+@mixin wrapper {
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+    // top: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgb(78, 78, 78);
+    padding: 30px;
+    background-color: rgb(201, 241, 246);
+
+}
+
+@mixin wrapperQuestion {
+    margin: 0;
+    position: absolute;
+    top: 0px;
+    width: 250px;
+    height: 400px;
+    font-size: 25px;
+    padding: 15px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: $main;
+    color: $textColor;
+    z-index: 1;
+
+}
+
+@mixin wrapperAnsw {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 40px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgb(195, 195, 195);
+}
+
+
+@mixin answ {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    margin: 10px 0 0 210px;
+    padding: 15px;
+    background-color: $listBackground;
+    border-radius: 40px;
+
+}
+
+@mixin Button {
+    width: 170px;
+    padding: 15px;
+    font-size: 15px;
+    color: $textColor;
+    background-color: $mainButton;
+    border-radius: 40px;
+    cursor: pointer;
+    border: 2px solid white; 
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
