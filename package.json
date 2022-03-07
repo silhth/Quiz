@@ -1,7 +1,7 @@
 {
   "name": "quiz",
   "version": "0.1.0",
-  "homepage": "https://silhth.github.io/Quiz_HTML_css_JS/",
+  "homepage": "silhth.github.io/quiz_html_css_js",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
